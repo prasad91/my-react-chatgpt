@@ -36,7 +36,7 @@ function App() {
     console.log("chat messages: " + tempChatMessages);
 
     const apiUrl = "https://api.openai.com/v1/chat/completions";
-    const apiKey = "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";
+    const apiKey = "API_KEY";
     const headers = {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
